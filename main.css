@@ -22,17 +22,11 @@ h1 {
   font-size: 20pt;
   font-family: arial;
   text-transform: uppercase;
-  padding-top: 10px;
-  padding-bottom: 22px;
-  padding-right: 15px;
-  padding-left: 12px;
+  padding: 10px 15px 22px 12px;
 }
 
 h2, h3 {
-  padding-top: 10px;
-  padding-bottom: 22px;
-  padding-right: 15px;
-  padding-left: 12px;
+  padding: 10px 15px 22px 12px;
 }
 
 p {

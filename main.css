@@ -5,15 +5,6 @@ html, body {
   height: 120%;
 }
 
-h1 {
-  font-size: 40px;
-}
-
-p {
-  max-width: 75%;
-  min-width: 450px;
-}
-
 div {
   padding-right: 30px;
   height: 110%;
@@ -24,8 +15,39 @@ div {
   padding-left: 30px;
   min-width: 69.5%;
   height: 120%;
-  background-color: #25E5EB;
+  background: #25E5EB;
 }
+
+h1 {
+  font-size: 20pt;
+  font-family: arial;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 22px;
+  padding-right: 15px;
+  padding-left: 12px;
+}
+
+h2, h3 {
+  padding-top: 10px;
+  padding-bottom: 22px;
+  padding-right: 15px;
+  padding-left: 12px;
+}
+
+p {
+  max-width: 75%;
+  min-width: 450px;
+}
+
+table {
+  background: #d21e1e;
+}
+
+a {
+  text-decoration:none;
+}
+a:hover {color:#d21e1e;}
 
 footer{
   position: relative;
@@ -33,7 +55,7 @@ footer{
   width: 100%;
   padding: 50px;
   clear: both;
-  background: #25E5EB;
+  background: #ddd;
   text-align:center;
   color: #fff;
 }
